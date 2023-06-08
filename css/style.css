@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: white;
+  margin: 50px 0 0 0;
+
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu__link a {
+  color: gray;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+
+}
+
+.header__logo {
+  left: 900px;
+  top: 49.99999999999994px;
+  border-radius: 0px;
+  background-repeat: no-repeat center;
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 79px;
+}
+
+.banner img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 38px;
+}
+
+.title {
+  padding-top: 20px;
+}
+
+.title__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.title__desk-one {
+ 
+  background-color: #F0F0F0;
+  padding: 50px 25px 48px 30px;
+}
+
+.title__desk-two {
+ 
+  background-color: #F0F0F0;
+  padding: 50px 24px 33px 40px;
+
+
+}
+
+.title__desk-one-h1 {
+
+
+ 
+  border-radius: nullpx;
+
+  color: #4581B7;
+}
+
+.title__desk-two-h2 {
+
+
+
+  
+  border-radius: nullpx;
+
+  color: #4581B7;
+}
+
+.title__desk-one-text {
+  color: #808080;
+  width: 100%;
+  height: 100%;
+}
+
+.title__desk-two-text {
+  color: #808080;
+  width: 100%;
+  height: 100%;
+}
+
+.the__end {
+  background: #F0F0F0;
+
+
+}
+
+/* .logo__two {
+
+
+  position: absolute;
+ 
+  left: 445px;
+  top: 1364px;
+
+
+} */
+
+.tit {
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #808080;
+
+
+}
+
+.logo__three {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-right: 15px;
+}
+
+.num {
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #808080;
+
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
